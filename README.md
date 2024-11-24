@@ -1,30 +1,42 @@
-Weather App - 
+To-Do List App - 
 
-Description - 
-The Weather App is a web-based application built using HTML, CSS, and JavaScript. It allows users to check real-time weather conditions for any city across the globe. This app provides essential weather data such as temperature, weather description, humidity, and wind speed, all fetched dynamically from a weather API.
-This project showcases  ability to integrate APIs with front-end development while creating a clean and responsive user interface.
+Description  - 
+The To-Do List App is a web-based productivity application created using HTML, CSS, and JavaScript. It helps users manage their tasks efficiently by allowing them to add, edit, mark as complete, and delete tasks.
+This project is designed to improve front-end development skills and demonstrate how to handle dynamic data with JavaScript.
 
 Features - 
-(1) Real-Time Weather Data:
-    Displays current temperature, weather conditions, humidity, and wind speed.
-(2) City Search:
-    Users can enter a city name to retrieve the weather details for that location.
-(3) Error Handling:
-    Displays user-friendly messages for invalid city names or network issues.  
+(1) Add Tasks:
+    Users can quickly add tasks to their to-do list.
+(2) Edit Tasks:
+    Modify task details after creation.
+(3) Mark as Completed:
+    Strike through completed tasks to distinguish them from pending ones.
+(4) Delete Tasks:
+    Remove tasks individually when they are no longer needed.
+(5) Persistent Storage:
+    Tasks are saved in the browser's local storage, so the list remains intact even after refreshing or reopening the app.
 
-Technologies Used - 
- (1) HTML: Builds the app structure.
- (2) CSS: Provides styling for a visually appealing user interface.
- (3) JavaScript: Handles the dynamic data fetching and app interactivity.
- (4) Weather API: Fetches live weather data  
+ Technologies Used - 
+ (1) HTML: Defines the structure of the application.
+ (2) CSS: Styles the user interface for a clean and modern look.
+ (3) JavaScript: Adds interactivity and functionality to the app. 
 
  How to Use - 
- (1) Clone or download the repository.
- (2) Open the project folder and run the index.html file in a browser.
- (3) Enter a city name in the input field and press the search button.
- (4) View the weather details for the selected city, including temperature, humidity, wind speed, and a brief weather description.
+ (1) Open the App:
+     Open the index.html file in any web browser.
+ (2) Add a Task:
+     Type a task into the input field and click the "Add" button.
+ (3) Edit a Task:
+     Click the "Edit" button next to a task to modify its content.
+ (4) Mark a Task as Complete:
+     Check the box or click on the task to mark it as completed.
+ (5) Delete a Task:
+     Click the "Delete" button to remove the task.
+ (6) Reopen the App:
+     Your tasks will still be there, thanks to local storage.
 
- Project Structure - 
- (1) index.html: Contains the structure of the weather app.
- (2) styles.css: Provides the styling for the app.
- (3) script.js: Handles the functionality, including API integration and dynamic updates.
+Project Structure - 
+(1) index.html: Contains the app's structure and layout.
+(2) styles.css: Provides styling for the app's appearance.
+(3) script.js: Implements the functionality for task management.   
+
